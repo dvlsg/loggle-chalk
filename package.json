@@ -1,0 +1,45 @@
+{
+  "name": "loggle-chalk",
+  "version": "0.1.0",
+  "description": "A loggle driver leveraging the chalk framework to provide timestamped, colorized logs",
+  "keywords": [
+    "logging",
+    "levels",
+    "tools",
+    "chalk",
+    "colors",
+    "timestamps"
+  ],
+  "main": "dist/loggle-chalk.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvlsg/loggle-chalk.git"
+  },
+  "author": "Dave Lesage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvlsg/loggle-chalk/issues"
+  },
+  "homepage": "https://github.com/dvlsg/loggle-chalk",
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-eslint": "^3.1.15",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.1",
+    "gulp-plumber": "^1.0.1",
+    "mocha": "^2.2.5",
+    "zana-assert": "^0.1.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.5.8",
+    "chalk": "^1.1.0",
+    "loggle": "^0.1.0"
+  }
+}
